@@ -9,14 +9,15 @@ export default function Academico() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#111",
-    justifyContent: "center",
-    alignItems: "center",
+  container:{
+    flex:1,
+    backgroundColor:"#000",
+    justifyContent:"center",
+    padding:20
   },
-  title: {
-    fontSize: 28,
-    color: "#fff",
-  },
+  title:{
+    color:"#fff",
+    fontSize:28,
+    fontWeight:"bold"
+  }
 });

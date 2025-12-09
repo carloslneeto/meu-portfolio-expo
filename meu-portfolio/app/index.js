@@ -7,27 +7,19 @@ export default function Home() {
       <Text style={styles.title}>Meu Portfólio</Text>
 
       <Link href="/sobre" asChild>
-        <TouchableOpacity style={styles.btn}>
-          <Text style={styles.btnText}>Sobre</Text>
-        </TouchableOpacity>
+        <TouchableOpacity style={styles.btn}><Text style={styles.btnText}>Sobre</Text></TouchableOpacity>
       </Link>
 
       <Link href="/academico" asChild>
-        <TouchableOpacity style={styles.btn}>
-          <Text style={styles.btnText}>Experiência Acadêmica</Text>
-        </TouchableOpacity>
+        <TouchableOpacity style={styles.btn}><Text style={styles.btnText}>Experiência Acadêmica</Text></TouchableOpacity>
       </Link>
 
       <Link href="/profissional" asChild>
-        <TouchableOpacity style={styles.btn}>
-          <Text style={styles.btnText}>Experiência Profissional</Text>
-        </TouchableOpacity>
+        <TouchableOpacity style={styles.btn}><Text style={styles.btnText}>Experiência Profissional</Text></TouchableOpacity>
       </Link>
 
       <Link href="/projetos" asChild>
-        <TouchableOpacity style={styles.btn}>
-          <Text style={styles.btnText}>Projetos</Text>
-        </TouchableOpacity>
+        <TouchableOpacity style={styles.btn}><Text style={styles.btnText}>Projetos</Text></TouchableOpacity>
       </Link>
     </View>
   );
